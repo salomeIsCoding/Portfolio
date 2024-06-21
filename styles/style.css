@@ -1,5 +1,5 @@
 body{
-    background-image: url('images/background_1.png');
+    background-image: url('images/background_2.png');
 }
 
 img{
@@ -18,14 +18,29 @@ h2{
     font-family: "Micro 5", sans-serif;
     font-weight: 400;
     font-size: 60px;
+    margin-bottom: 200px;
 }
 
 .headline{
     margin-top: 350px;
-    height: 70vh;
-    
+    height: 50vh;
 }
 
 button {
-    padding: 0px 30px ;
+    padding: 5px 45px ;
+    font-family: "Space Grotesk",
+        sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    border: solid 3px #6772E6;
+    border-radius: 50px;
+    background-color: transparent;
+    color: #6772E6;
+}
+
+.arrow {
+    display: block;
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: 100px;
 }
