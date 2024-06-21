@@ -56,3 +56,13 @@ a {
     scale: 1.3;
     transition: all 200ms ease-in-out;
 }
+
+#project{
+    transition: all 200ms ease-in-out;
+
+}
+#project:hover{
+    cursor: pointer;
+    scale: 1.03;
+    transition: all 200ms ease-in-out;
+}
