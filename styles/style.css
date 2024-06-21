@@ -35,6 +35,19 @@ button {
     border-radius: 50px;
     background-color: transparent;
     color: #6772E6;
+    transition: all 100ms ease-in-out;
+}
+
+button:hover{
+    background-color: #6772E6;
+    color: white;
+    transition: all 100ms ease-in-out;
+}
+
+
+a {
+    text-decoration: none;
+    color: #6772E6;
 }
 
 .arrow {
@@ -44,11 +57,6 @@ button {
     font-size: 60px;
     color: white;
     transition: all 200ms ease-in-out;
-}
-
-a {
-    text-decoration: none;
-    color: #6772E6;
 }
 
 .arrow:hover {
