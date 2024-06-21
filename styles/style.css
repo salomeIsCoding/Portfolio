@@ -1,5 +1,6 @@
-body{
-    background-image: url('images/background_2.png');
+header{
+    height: 100vh;
+    background-image: url("/images/background_2.png");
 }
 
 img{
@@ -12,6 +13,7 @@ h1 {
     font-family: "Space Grotesk", sans-serif;
     font-weight: 700 ;
     font-size: 130px;
+    color: white;
 }
 
 h2{
@@ -19,11 +21,11 @@ h2{
     font-weight: 400;
     font-size: 60px;
     margin-bottom: 200px;
+    color: white;
 }
 
 .headline{
-    margin-top: 350px;
-    height: 50vh;
+    margin-top: 250px;
 }
 
 button {
@@ -42,5 +44,5 @@ button {
     display: block;
     text-align: center;
     font-size: 70px;
-    margin-bottom: 100px;
+    color: white;
 }
