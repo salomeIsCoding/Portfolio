@@ -22,5 +22,10 @@ h2{
 
 .headline{
     margin-top: 350px;
-    height: 100vh;
+    height: 70vh;
+    
+}
+
+button {
+    padding: 0px 30px ;
 }
