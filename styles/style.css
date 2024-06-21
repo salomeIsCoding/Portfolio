@@ -1,4 +1,6 @@
-
+body{
+    background-image: url('images/background_1.png');
+}
 
 img{
     margin-bottom: 20px;
@@ -12,3 +14,13 @@ h1 {
     font-size: 130px;
 }
 
+h2{
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+}
+
+.headline{
+    margin-top: 350px;
+    height: 100vh;
+}
