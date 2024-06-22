@@ -6,31 +6,8 @@
         sans-serif;
 }
 
-header{
-    height: 100vh;
-}
-
-img{
-    margin-bottom: 20px;
-    max-height: 300px;
-    border-radius: 20px;
-}
-
-h1 {
-    font-family: var(--default-font);
-    font-weight: 700 ;
-    font-size: 130px;
-}
-
-h2{
-    font-family: var(--second-font);
-    font-weight: 400;
-    font-size: 60px;
-    
-}
-
-.headline{
-    margin-top: 250px;
+.logo-homepage {
+    width: 80px;
 }
 
 button {
@@ -52,6 +29,25 @@ button:hover{
 }
 
 
+h1 {
+    font-family: var(--default-font);
+    font-weight: 700 ;
+    font-size: 130px;
+}
+
+h2{
+    font-family: var(--second-font);
+    font-weight: 400;
+    font-size: 60px;
+    
+}
+
+.headline{
+    margin-top: 250px;
+}
+
+
+
 a {
     text-decoration: none;
     color: var(--primary-color);
@@ -61,6 +57,7 @@ a {
     display: block;
     text-align: center;
     margin-top: 200px;
+    margin-bottom: 200px;
     font-size: 60px;
     color: white;
     transition: all 200ms ease-in-out;
@@ -72,12 +69,75 @@ a {
     transition: all 200ms ease-in-out;
 }
 
+img{
+    margin-bottom: 20px;
+    max-height: 300px;
+    border-radius: 20px;
+}
 #project{
+
     transition: all 200ms ease-in-out;
 
 }
+
 #project:hover{
     cursor: pointer;
     scale: 1.03;
     transition: all 200ms ease-in-out;
+}
+
+@media (max-width:1024px) {
+    h1 {
+        font-size: 90px;
+        }
+
+    h2 {
+        font-size: 50px;
+    }
+
+    .arrow {
+        font-size: 50px;
+        margin-top: 160px;
+        margin-bottom: 100px;
+            
+    }
+    .headline {
+        margin-top: 180px;
+    }
+
+    .logo-homepage {
+        width: 60px;
+    }
+}
+
+@media (max-width:768px) {
+    #project {
+        text-align: center;
+    }
+}
+
+@media (max-width:414px) {
+    h1 {
+        font-size: 50px;
+        }
+
+    h2 {
+        font-size: 25px;
+        margin-bottom: 50px;
+    }
+
+    .headline {
+        margin-top: 80px;
+    }
+
+    button {
+        padding: 5px 30px;
+        font-size: 18px;
+        margin-right: 10px;
+        }
+
+    .logo-homepage {
+        width: 50px;
+        margin-left: 10px;
+}
 }
