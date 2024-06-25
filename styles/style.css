@@ -4,6 +4,8 @@
         sans-serif;
     --second-font:"Micro 5",
         sans-serif;
+    --mono-font: "Space Mono",
+        monospace;
 }
 
 .logo-homepage {
@@ -39,7 +41,19 @@ h2{
     font-family: var(--second-font);
     font-weight: 400;
     font-size: 60px;
-    
+}
+
+h4 {
+    font-family: var(--default-font);
+    font-weight: 600;
+}
+
+p{
+    font-family: var(--mono-font);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+
 }
 
 .headline{
@@ -69,7 +83,7 @@ a {
     transition: all 200ms ease-in-out;
 }
 
-img{
+img #project {
     margin-bottom: 20px;
     max-height: 300px;
     border-radius: 20px;
@@ -140,4 +154,15 @@ img{
         width: 50px;
         margin-left: 10px;
 }
+}
+
+/* About */
+
+#profile-picture {
+    border-radius: 20px;
+}
+
+.social-media {
+    font-family: var(--mono-font);
+    font-size: 14px;
 }
