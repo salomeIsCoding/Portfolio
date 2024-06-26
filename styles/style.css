@@ -43,10 +43,6 @@ h2{
     font-size: 60px;
 }
 
-h4 {
-    font-family: var(--default-font);
-    font-weight: 600;
-}
 
 p{
     font-family: var(--mono-font);
@@ -122,12 +118,34 @@ img #project {
     .logo-homepage {
         width: 60px;
     }
+    .picture {
+    padding: 10px !important;
+}
+
+.description {
+    padding: 10px !important;
+}
+
+.experience {
+    padding: 10px !important;
+}
 }
 
 @media (max-width:768px) {
     #project {
         text-align: center;
     }
+        .picture {
+            padding: 5% !important;
+        }
+    
+        .description {
+            padding: 5% !important;
+        }
+    
+        .experience {
+            padding: 5% !important;
+        }
 }
 
 @media (max-width:414px) {
@@ -154,9 +172,20 @@ img #project {
         width: 50px;
         margin-left: 10px;
 }
+
+
+
+        
+
 }
 
 /* About */
+
+h4 {
+    font-family: var(--default-font);
+    font-weight: 600;
+    font-size: 23px;
+}
 
 #profile-picture {
     border-radius: 20px;
@@ -164,5 +193,6 @@ img #project {
 
 .social-media {
     font-family: var(--mono-font);
-    font-size: 14px;
+    font-size: 15px;
 }
+
