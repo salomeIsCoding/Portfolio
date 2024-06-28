@@ -79,13 +79,8 @@ a {
     transition: all 200ms ease-in-out;
 }
 
-img #project {
-    margin-bottom: 20px;
-    max-height: 300px;
-    border-radius: 20px;
-}
 #project{
-
+    border-radius: 20px;
     transition: all 200ms ease-in-out;
 
 }
