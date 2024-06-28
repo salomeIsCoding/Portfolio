@@ -120,6 +120,9 @@ a {
 
 .work-description p{
     font-family: var(--default-font);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 23px;
 }
 
 .work {
@@ -128,7 +131,10 @@ a {
 
 .work-image{
     border-radius: 20px;
+    
 }
+
+
 
 
 
@@ -167,11 +173,14 @@ a {
 }
 
 .work {
-    margin-top: 170px;
+    margin-top: 190px;
 }
 }
 
 @media (max-width:768px) {
+    h6{
+        margin-bottom: 20px;
+    }
     #project {
         text-align: center;
     }
@@ -205,6 +214,7 @@ a {
 
     h6{
         font-size: 13px;
+        margin: 0px;
     }
 
     .headline {
