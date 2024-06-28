@@ -92,7 +92,6 @@ a {
 #project{
     border-radius: 20px;
     transition: all 200ms ease-in-out;
-
 }
 
 #project:hover{
@@ -130,6 +129,8 @@ a {
 .work-image{
     border-radius: 20px;
 }
+
+
 
 @media (max-width:1024px) {
     h1 {
