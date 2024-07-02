@@ -150,6 +150,24 @@ a {
     font-family: var(--mono-font);
 }
 
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 500,
+        'GRAD' 200,
+        'opsz' 24
+}
+
+#symbol-close {
+    transition: all 200ms ease-in-out;
+}
+
+#symbol-close:hover {
+    color: var(--primary-color);
+    transform: rotateZ(180deg) scale(1.2, 1.2);
+    transition: all 300ms ease-in-out;
+}
+
 /* Responsive */
 
 @media (max-width:1024px) {
