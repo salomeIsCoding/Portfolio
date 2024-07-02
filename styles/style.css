@@ -210,16 +210,12 @@ a {
             padding: 5% !important;
         }
 
-        .contact-container h1 {
-            font-size: 110px;
-            margin-top: 300px;
-            margin-left: 100px;
-            margin-bottom: 200px;
-        }
+        .contact-container {
+    margin-top: 150px;
+    margin-bottom: 200px;
+}
 
-        .contact-container .social-media-contact {
-            margin-left: 110px;
-        }
+    
 }
 
 @media (max-width:414px) {
@@ -261,6 +257,18 @@ a {
         margin-top: 150px;
     }
 
+    #close {
+        margin-right: 5% !important;
+        margin-top: 5% !important;
+    }
 
+    #headline-contact{
+        font-size: 100px;
+        line-height: 100px;
+    }
+
+    .contact-container {
+    margin-top: 150px;
+    margin-bottom: 10px;
 }
-
+}
