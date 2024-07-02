@@ -70,7 +70,7 @@ p{
 }
 
 .headline{
-    margin-top: 320px;
+    margin-top: 350px;
 }
 
 a {
@@ -134,14 +134,23 @@ a {
     margin-top: 250px;
 }
 
-.work-image{
+.work-image {
     border-radius: 20px;
-    
 }
 
+/* Contact */
 
+.contact-container {
+    margin-top: 250px;
+    margin-bottom: 200px;
+}
 
+.contact-links{
+    color: black;
+    font-family: var(--mono-font);
+}
 
+/* Responsive */
 
 @media (max-width:1024px) {
     h1 {
@@ -200,6 +209,17 @@ a {
         .experience {
             padding: 5% !important;
         }
+
+        .contact-container h1 {
+            font-size: 110px;
+            margin-top: 300px;
+            margin-left: 100px;
+            margin-bottom: 200px;
+        }
+
+        .contact-container .social-media-contact {
+            margin-left: 110px;
+        }
 }
 
 @media (max-width:414px) {
@@ -225,7 +245,7 @@ a {
     .headline {
         margin-top: 170px;
     }
-
+    
     button {
         padding: 5px 30px;
         font-size: 18px;
@@ -243,5 +263,4 @@ a {
 
 
 }
-
 
