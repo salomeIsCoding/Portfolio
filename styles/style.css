@@ -121,6 +121,11 @@ a {
     color: var(--primary-color);
 }
 
+footer{
+    background-color: black;
+    margin: 0;
+}
+
 /* Work */
 
 .work-description p{
