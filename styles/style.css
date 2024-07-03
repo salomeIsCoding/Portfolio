@@ -275,15 +275,23 @@ footer {
         margin: 0px;
     }
 
-    .headline {
-        margin-top: 170px;
-    }
-    
     button {
         padding: 5px 30px;
         font-size: 18px;
     }
 
+    footer {
+        margin-top: 40px;
+    }
+    
+    footer h2 {
+        margin-bottom: 0px;
+    }
+
+    .headline {
+        margin-top: 170px;
+    }
+    
     .logo-homepage {
         width: 50px;
         margin-left: 10px;
@@ -306,13 +314,5 @@ footer {
     .contact-container {
         margin-top: 150px;
         margin-bottom: 10px;
-    }
-
-    footer {
-        margin-top: 40px;
-    }
-
-    footer h2{
-        margin-bottom: 0px;
     }
 }
