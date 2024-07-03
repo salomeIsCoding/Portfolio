@@ -73,6 +73,11 @@ a {
     color: var(--primary-color);
 }
 
+a:hover {
+    text-decoration: underline;
+    color: var(--primary-color);
+}
+
 footer {
     background-color: var(--primary-color);
     margin-top: 100px;
@@ -88,7 +93,7 @@ footer {
     margin-top: 200px;
     margin-bottom: 200px;
     font-size: 60px;
-    color: white;
+    color: var(--primary-color);
     transition: all 200ms ease-in-out;
 }
 
@@ -306,7 +311,7 @@ footer {
     footer {
         margin-top: 40px;
     }
-    
+
     footer h2{
         margin-bottom: 0px;
     }
