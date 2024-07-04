@@ -231,8 +231,16 @@ footer {
 }
 
 @media (max-width:768px) {
+    h2 {
+        margin-bottom: 100px;
+    }
+
     h6{
         margin-bottom: 20px;
+    }
+
+    .headline {
+        margin-top: 260px;
     }
 
     #project {
@@ -255,6 +263,8 @@ footer {
         margin-top: 150px;
         margin-bottom: 200px;
     }
+
+    
 }
 
 @media (max-width:414px) {
