@@ -190,7 +190,7 @@ footer {
 
 /* Responsive */
 
-@media (max-width:1080px) {
+@media (max-width:1200px) {
     h1 {
         font-size: 80px;
     }
