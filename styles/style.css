@@ -228,6 +228,10 @@ footer {
     .work {
     margin-top: 190px;
     }
+
+    .contact-container{
+        margin-top: 190px !important;
+    }
 }
 
 @media (max-width:900px) {
